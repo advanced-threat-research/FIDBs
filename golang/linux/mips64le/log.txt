@@ -1,0 +1,100 @@
+Received project name: Trellix ARC's Library
+Received project version: golang-1.6-through-1.21.6-os-linux
+Received output folder path: D:\fidb-output\golang\linux\mips64le
+Received choice with regards to the usage of a common symbols file: false
+Collected language IDs and their versions:
+	MIPS:LE:64:default (1.8)
+
+MIPS:LE:64:default contains 251 files
+
+[MIPS:LE:64:default] Generating "Trellix ARC's Library (golang-1.6-through-1.21.6-os-linux)" based on 251 files
+Trellix ARC's Library:golang-1.6-through-1.21.6-os-linux:MIPS:LE:64:default
+3239878 total functions visited
+1926008 total functions added
+1313870 total functions excluded
+Breakdown of exclusions:
+    DUPLICATE_INFO: 1271017
+    IS_THUNK: 6452
+    FAILED_FUNCTION_FILTER: 0
+    NO_DEFINED_SYMBOL: 13403
+    MEMORY_ACCESS_EXCEPTION: 0
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 22998
+List of unresolved symbols:
+    PTR_net.(*Resolver).lookupIPAddr.func3_003b1de8
+    PTR_net.(*Resolver).lookupIPAddr.func3_003b1df0
+    PTR_net.(*Resolver).lookupIPAddr.func3_003b1ea8
+    PTR_net.(*Resolver).lookupIPAddr.func3_003b2490
+    PTR_net.(*Resolver).lookupIPAddr.func3_003b24c8
+    SUB_00000006
+    SUB_00000008
+    SUB_0000000e
+    SUB_00000010
+    SUB_00000064
+    SUB_0b0a0908
+    SUB_203a6874676e654c
+    SUB_2d746e65746e6f42
+    SUB_2e20297125282072
+    SUB_32312e316f676464
+    SUB_3b72696372726168
+    SUB_3b7373656c727466
+    SUB_3b74736575717466
+    SUB_5c102d3c020056
+    SUB_5f48203d545f4820
+    SUB_616d676973726176
+    SUB_6172656e65676b72
+    SUB_617461666c6c7566
+    SUB_622f736567617020
+    SUB_6363673638332f64
+    SUB_6365686363676d72
+    SUB_63697470696c6c64
+    SUB_644295e0005c102c
+    SUB_64656b63616a6968
+    SUB_6567616b6361702c
+    SUB_656765746e692078
+    SUB_656c652e73203d66
+    SUB_6572666570797462
+    SUB_66605f5e5d00090c
+    SUB_6863786572656764
+    SUB_69746c756d206f6e
+    SUB_6a6e754765677260
+    SUB_6e676973673e2d6c
+    SUB_6e6e6f4320303032
+    SUB_6f52617461446e20
+    SUB_706050403020100
+    SUB_726f66336e616e34
+    SUB_7365676170203d72
+    SUB_746120646e756f66
+    SUB_74706d65646e616c
+    SUB_a090d3a200a2e2e
+    SUB_a64000000d938
+    SUB_a64200000d938
+    SUB_a64600000d960
+    SUB_a65a00000d990
+    SUB_a98200000d970
+    SUB_a98600000d980
+    SUB_a9a600000d9a8
+    SUB_a9a800000d9b8
+    SUB_a9b000000d9f8
+    SUB_abe800000ded0
+    SUB_ac1c00000dee8
+    SUB_ac1e00000dee8
+    SUB_b0e800000e240
+    SUB_b0e800000e260
+    SUB_b10600000e280
+    SUB_b10c00000e290
+    SUB_b12800000e230
+    SUB_dfa1003063bdffd8
+    SUB_dfa40080ffbf0000
+    SUB_ffbf000063bdffd8
+    SUB_ffbfffe800000000
+    archive/tar.initdone.
+    go.itab.*net/http.httpError,error
+    go.itab.net/http.fakeLocker,sync.Locker
+    runtime.algarray
+    type.+MnYihsJ
+    type..importpath.crypto/hmac.
+    type..u//ArVjp
+    type.KV8xO9a1[96]
+    type.crypto/hmac.hmac[96]
+    type.error
+    type.os.Signal

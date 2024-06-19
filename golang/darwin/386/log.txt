@@ -1,0 +1,75 @@
+Received project name: Trellix ARC's Library
+Received project version: golang-1.5-through-1.21.6-os-darwin
+Received output folder path: F:\fidb-output\golang\darwin\386
+Received choice with regards to the usage of a common symbols file: false
+Collected language IDs and their versions:
+	x86:LE:32:default (3.0)
+
+x86:LE:32:default contains 148 files
+
+[x86:LE:32:default] Generating "Trellix ARC's Library (golang-1.5-through-1.21.6-os-darwin)" based on 148 files
+Trellix ARC's Library:golang-1.5-through-1.21.6-os-darwin:x86:LE:32:default
+2659251 total functions visited
+1368962 total functions added
+1290289 total functions excluded
+Breakdown of exclusions:
+    IS_THUNK: 13232
+    NO_DEFINED_SYMBOL: 13060
+    DUPLICATE_INFO: 1259013
+    FAILED_FUNCTION_FILTER: 0
+    MEMORY_ACCESS_EXCEPTION: 0
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 4984
+List of unresolved symbols:
+    SUB_003d40b9
+    SUB_003d5639
+    SUB_003d5bbb
+    SUB_003d5c33
+    SUB_003d5c3a
+    SUB_003d5c3b
+    SUB_003d635d
+    SUB_003d639a
+    SUB_003d6e5a
+    SUB_003d6ef5
+    SUB_0f800013
+    ___error
+    _archive/tar.initdone.
+    _bad_proc_msg
+    _close
+    _exit
+    _fcntl
+    _getpid
+    _gettimeofday
+    _kevent
+    _kill
+    _kqueue
+    _mach_absolute_time
+    _mach_timebase_info
+    _madvise
+    _main
+    _mmap
+    _munmap
+    _open
+    _pipe
+    _pthread_attr_getstacksize
+    _pthread_attr_init
+    _pthread_attr_setdetachstate
+    _pthread_attr_setstacksize
+    _pthread_cond_init
+    _pthread_cond_signal
+    _pthread_cond_timedwait_relative_np
+    _pthread_cond_wait
+    _pthread_create
+    _pthread_kill
+    _pthread_mutex_init
+    _pthread_mutex_lock
+    _pthread_mutex_unlock
+    _pthread_self
+    _pthread_sigmask
+    _raise
+    _read
+    _setitimer
+    _sigaction
+    _sigaltstack
+    _sysctl
+    _usleep
+    _write

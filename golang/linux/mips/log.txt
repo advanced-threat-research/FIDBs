@@ -1,0 +1,101 @@
+Received project name: Trellix ARC's Library
+Received project version: golang-1.8-through-1.21.6-os-linux
+Received output folder path: D:\fidb-output\golang\linux\mips
+Received choice with regards to the usage of a common symbols file: false
+Collected language IDs and their versions:
+	MIPS:BE:32:default (1.8)
+
+MIPS:BE:32:default contains 228 files
+
+[MIPS:BE:32:default] Generating "Trellix ARC's Library (golang-1.8-through-1.21.6-os-linux)" based on 228 files
+Trellix ARC's Library:golang-1.8-through-1.21.6-os-linux:MIPS:BE:32:default
+2923400 total functions visited
+1735654 total functions added
+1187746 total functions excluded
+Breakdown of exclusions:
+    FAILED_FUNCTION_FILTER: 0
+    MEMORY_ACCESS_EXCEPTION: 0
+    DUPLICATE_INFO: 1163813
+    NO_DEFINED_SYMBOL: 257
+    IS_THUNK: 6552
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 17124
+List of unresolved symbols:
+    Elf32_Shdr_ARRAY_00010114[5].sh_entsize+2
+    SUB_00000004
+    SUB_00000008
+    SUB_00000010
+    SUB_00000014
+    SUB_00000016
+    SUB_00000022
+    SUB_0000d698
+    SUB_0000d6b8
+    SUB_0000d6c8
+    SUB_0000d6f0
+    SUB_0000d700
+    SUB_0000d740
+    SUB_0000d750
+    SUB_0000dc88
+    SUB_0000dca8
+    SUB_0000dcc0
+    SUB_0000dcc8
+    SUB_0000dcd8
+    SUB_0000e750
+    SUB_0000e8b0
+    SUB_0000e8e0
+    SUB_0000e908
+    SUB_0000e938
+    SUB_0000e948
+    SUB_0000eeb0
+    SUB_0000eee0
+    SUB_0000eef0
+    SUB_0000f208
+    SUB_0000f218
+    SUB_0000f238
+    SUB_0000f258
+    SUB_0000f268
+    SUB_004a4b3a
+    SUB_004a4b5a
+    SUB_04050606
+    SUB_0c023f9c
+    SUB_0c023fb2
+    SUB_0c023fba
+    SUB_0c023fd2
+    SUB_0c023ff6
+    SUB_0c024016
+    SUB_205b7264
+    SUB_28747274
+    SUB_32303020
+    SUB_4b694220
+    SUB_50524956
+    SUB_61696c20
+    SUB_616c2074
+    SUB_61743332
+    SUB_656d656e
+    SUB_67657364
+    SUB_676f312e
+    SUB_67747174
+    SUB_69737472
+    SUB_6e6f206c
+    SUB_6f746f3a
+    SUB_6f756768
+    SUB_70747920
+    SUB_74536372
+    SUB_74632f7a
+    SUB_74696f6e
+    SUB_75637420
+    SUB_77697468
+    SUB_7966723a
+    SUB_7a63793a
+    SUB_7a657460
+    golang_org/x/net/idna.statictmp_7
+    internal/x/net/idna.statictmp_7
+    runtime.algarray
+    type.+MnYihsJ
+    type..importpath.crypto/hmac.
+    type..u//ArVjp
+    type.crypto/hmac.hmac[64]
+    type.crypto/x509.ecPrivateKey
+    type.error
+    type.os.Signal
+    vendor/golang_org/x/net/idna.statictmp_5
+    vendor/golang_org/x/net/idna.statictmp_7

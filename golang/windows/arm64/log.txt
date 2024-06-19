@@ -1,0 +1,104 @@
+Received project name: Trellix ARC's Library
+Received project version: golang-1.17-through-1.21.6-os-windows
+Received output folder path: F:\fidb-output\golang\windows\arm64
+Received choice with regards to the usage of a common symbols file: false
+Collected language IDs and their versions:
+	AARCH64:LE:64:v8A (1.6)
+
+AARCH64:LE:64:v8A contains 75 files
+
+[AARCH64:LE:64:v8A] Generating "Trellix ARC's Library (golang-1.17-through-1.21.6-os-windows)" based on 75 files
+Trellix ARC's Library:golang-1.17-through-1.21.6-os-windows:AARCH64:LE:64:v8A
+575121 total functions visited
+351415 total functions added
+223706 total functions excluded
+Breakdown of exclusions:
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 18932
+    MEMORY_ACCESS_EXCEPTION: 0
+    NO_DEFINED_SYMBOL: 3732
+    DUPLICATE_INFO: 199514
+    FAILED_FUNCTION_FILTER: 0
+    IS_THUNK: 1528
+List of unresolved symbols:
+    DAT_100269080
+    DAT_100269340
+    DAT_100269640
+    DAT_1002699c0
+    DAT_1002742a0
+    DAT_1002743c0
+    DAT_1002754c0
+    DAT_100275e80
+    DAT_1002765e0
+    DAT_100277440
+    DAT_1002776c0
+    DAT_100278940
+    DAT_100278980
+    DAT_100282fc0
+    DAT_100283040
+    DAT_100283120
+    DAT_10028a4a0
+    DAT_10028b780
+    DAT_10028ba00
+    DAT_10028bac0
+    DAT_10028bb00
+    DAT_10028cf80
+    DAT_10028d0e0
+    DAT_1002c8ee0
+    DAT_10047b8ff
+    DAT_10047bd9f
+    DAT_10047bddf
+    DAT_10047be9f
+    DAT_10047bedf
+    DAT_10047bf3f
+    DAT_10047bfbf
+    DAT_10047bfff
+    DAT_10047c27f
+    DAT_10047c75f
+    DAT_10047d7bf
+    DAT_10047d9df
+    DAT_10047dc3f
+    DAT_10047ddff
+    DAT_10047de9f
+    DAT_10047dfbf
+    DAT_1005a8830
+    DAT_1005a8850
+    GetStdHandle
+    PTR_s_Sunday_1004ae120
+    PTR_s_Sunday_1004af140
+    PTR_s_Sunday_1004b0140
+    PTR_s_Sunday_1004b2140
+    PTR_s_Sunday_1004b3160
+    PTR_s_Sunday_1004b3180
+    PTR_s_Sunday_1004b5180
+    PTR_s_Sunday_1004b51c0
+    PTR_s_Sunday_1004cafe0
+    PTR_s_Sunday_1004cbfe0
+    PTR_s_Sunday_1004cd020
+    PTR_s_Sunday_1004df4e0
+    PTR_s_Sunday_1004df500
+    PTR_s_Sunday_1004df520
+    PTR_s_Sunday_1004f04a0
+    PTR_s_Sunday_1004f14a0
+    PTR_s_Sunday_1004f14e0
+    PTR_s_Sunday_1004f34e0
+    PTR_s_Sunday_1004f3500
+    PTR_s_Sunday_100538280
+    PTR_s_regexp:_unhandled_case_in_compil_10033fcd8
+    PTR_s_regexp:_unhandled_case_in_compil_100340028
+    PTR_s_regexp:_unhandled_case_in_compil_1003413a0
+    PTR_s_regexp:_unhandled_case_in_compil_1003413b0
+    PTR_s_regexp:_unhandled_case_in_compil_1003428c8
+    PTR_s_regexp:_unhandled_case_in_compil_1003439b8
+    PTR_s_regexp:_unhandled_case_in_compil_100343a20
+    PTR_s_regexp:_unhandled_case_in_compil_100343af0
+    PTR_s_regexp:_unhandled_case_in_compil_100343af8
+    PTR_s_regexp:_unhandled_case_in_compil_100344e70
+    PTR_s_regexp:_unhandled_case_in_compil_100344eb0
+    PTR_s_regexp:_unhandled_case_in_compil_100344f38
+    PTR_s_regexp:_unhandled_case_in_compil_100344f40
+    PTR_s_regexp:_unhandled_case_in_compil_1003a2440
+    SUB_617461666c6c7566
+    SwitchToThread
+    TlsAlloc
+    WriteFile
+    go.itab.*go/types.Func,go/types.positioner

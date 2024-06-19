@@ -1,0 +1,39 @@
+Received project name: Trellix ARC's Library
+Received project version: golang-1.5-through-1.21.6-os-freebsd
+Received output folder path: F:\fidb-output\golang\freebsd\386
+Received choice with regards to the usage of a common symbols file: false
+Collected language IDs and their versions:
+	x86:LE:32:default (3.0)
+
+x86:LE:32:default contains 260 files
+
+[x86:LE:32:default] Generating "Trellix ARC's Library (golang-1.5-through-1.21.6-os-freebsd)" based on 260 files
+Trellix ARC's Library:golang-1.5-through-1.21.6-os-freebsd:x86:LE:32:default
+3954430 total functions visited
+2031649 total functions added
+1922781 total functions excluded
+Breakdown of exclusions:
+    FAILED_FUNCTION_FILTER: 0
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 8263
+    IS_THUNK: 5890
+    NO_DEFINED_SYMBOL: 21655
+    MEMORY_ACCESS_EXCEPTION: 0
+    DUPLICATE_INFO: 1886973
+List of unresolved symbols:
+    SUB_0840f58e
+    SUB_084108e4
+    SUB_084108eb
+    SUB_084108ec
+    SUB_084108ee
+    SUB_0841144e
+    SUB_08411926
+    SUB_0841192b
+    golang_org/x/net/idna.statictmp_7
+    internal/x/net/idna.statictmp_7
+    runtime.zerovalue
+    type.+MnYihsJ
+    type.crypto/x509.ecPrivateKey
+    type.error
+    type.os.Signal
+    vendor/golang_org/x/net/idna.statictmp_5
+    vendor/golang_org/x/net/idna.statictmp_7
