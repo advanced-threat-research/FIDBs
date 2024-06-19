@@ -1,0 +1,230 @@
+Received project name: Trellix ARC's Library
+Received project version: libbzip2-1.0.6_through_1.0.8-1_various-msvc-builds
+Received output folder path: F:\fidb-output\libbzip2
+Received choice with regards to the usage of a common symbols file: false
+Collected language IDs and their versions:
+	x86:LE:64:default (3.0)
+	x86:LE:32:default (3.0)
+
+x86:LE:64:default contains 210 files
+x86:LE:32:default contains 210 files
+
+[x86:LE:64:default] Generating "Trellix ARC's Library (libbzip2-1.0.6_through_1.0.8-1_various-msvc-builds)" based on 210 files
+Trellix ARC's Library:libbzip2-1.0.6_through_1.0.8-1_various-msvc-builds:x86:LE:64:default
+7271 total functions visited
+3610 total functions added
+3661 total functions excluded
+Breakdown of exclusions:
+    MEMORY_ACCESS_EXCEPTION: 0
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 481
+    IS_THUNK: 366
+    NO_DEFINED_SYMBOL: 0
+    DUPLICATE_INFO: 2814
+    FAILED_FUNCTION_FILTER: 0
+List of unresolved symbols:
+    DecodePointer
+    DisableThreadLibraryCalls
+    EncodePointer
+    GetCurrentProcess
+    GetCurrentProcessId
+    GetCurrentThreadId
+    GetSystemTimeAsFileTime
+    IsDebuggerPresent
+    IsProcessorFeaturePresent
+    QueryPerformanceCounter
+    RtlCaptureContext
+    RtlLookupFunctionEntry
+    RtlVirtualUnwind
+    SetUnhandledExceptionFilter
+    UnhandledExceptionFilter
+    __CppXcptFilter
+    __acrt_iob_func
+    __crtCaptureCurrentContext
+    __crtCapturePreviousContext
+    __crtTerminateProcess
+    __crtUnhandledException
+    __crt_debugger_hook
+    __dllonexit
+    __dyn_tls_init_callback
+    __guard_dispatch_icall_fptr
+    __imp_DecodePointer
+    __imp_DisableThreadLibraryCalls
+    __imp_EncodePointer
+    __imp_GetCurrentProcess
+    __imp_GetCurrentProcessId
+    __imp_GetCurrentThreadId
+    __imp_GetSystemTimeAsFileTime
+    __imp_IsDebuggerPresent
+    __imp_IsProcessorFeaturePresent
+    __imp_QueryPerformanceCounter
+    __imp_RtlCaptureContext
+    __imp_RtlLookupFunctionEntry
+    __imp_RtlVirtualUnwind
+    __imp_SetUnhandledExceptionFilter
+    __imp_UnhandledExceptionFilter
+    __imp___acrt_iob_func
+    __imp___iob_func
+    __imp___stdio_common_vfprintf
+    __imp__calloc_crt
+    __imp__fdopen
+    __imp__fileno
+    __imp__malloc_crt
+    __imp__onexit
+    __imp__setmode
+    __imp_exit
+    __imp_fclose
+    __imp_fdopen
+    __imp_ferror
+    __imp_fflush
+    __imp_fgetc
+    __imp_fileno
+    __imp_fopen
+    __imp_fprintf
+    __imp_fread
+    __imp_free
+    __imp_fwrite
+    __imp_isdigit
+    __imp_malloc
+    __imp_setmode
+    __imp_ungetc
+    __iob_func
+    __report_rangecheckfailure
+    __stdio_common_vfprintf
+    _amsg_exit
+    _calloc_crt
+    _cexit
+    _configure_narrow_argv
+    _crt_atexit
+    _execute_onexit_table
+    _fdopen
+    _fileno
+    _initialize_narrow_environment
+    _initialize_onexit_table
+    _initterm
+    _initterm_e
+    _lock
+    _malloc_crt
+    _register_onexit_function
+    _seh_filter_dll
+    _setmode
+    _unlock
+    exit
+    fclose
+    ferror
+    fflush
+    fgetc
+    fopen
+    fread
+    free
+    fwrite
+    isdigit
+    malloc
+    memcpy
+    memset
+    ungetc
+[x86:LE:32:default] Generating "Trellix ARC's Library (libbzip2-1.0.6_through_1.0.8-1_various-msvc-builds)" based on 210 files
+Trellix ARC's Library:libbzip2-1.0.6_through_1.0.8-1_various-msvc-builds:x86:LE:32:default
+7441 total functions visited
+3823 total functions added
+3618 total functions excluded
+Breakdown of exclusions:
+    MEMORY_ACCESS_EXCEPTION: 0
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 350
+    IS_THUNK: 341
+    NO_DEFINED_SYMBOL: 56
+    DUPLICATE_INFO: 2871
+    FAILED_FUNCTION_FILTER: 0
+List of unresolved symbols:
+    @__security_check_cookie@4
+    DecodePointer
+    DisableThreadLibraryCalls
+    EncodePointer
+    GetCurrentProcess
+    GetCurrentProcessId
+    GetCurrentThreadId
+    GetSystemTimeAsFileTime
+    IsDebuggerPresent
+    IsProcessorFeaturePresent
+    QueryPerformanceCounter
+    SUB_9b470002
+    SetUnhandledExceptionFilter
+    TerminateProcess
+    UnhandledExceptionFilter
+    _IsProcessorFeaturePresent@4
+    ___clean_type_info_names_internal
+    ___crtTerminateProcess
+    ___crtUnhandledException
+    ___dllonexit
+    ___report_rangecheckfailure
+    ___std_type_info_destroy_list
+    __acrt_iob_func
+    __amsg_exit
+    __chkstk
+    __configure_narrow_argv
+    __crt_atexit
+    __crt_debugger_hook
+    __dyn_tls_init_callback
+    __except_handler4_common
+    __execute_onexit_table
+    __guard_check_icall_fptr
+    __imp__DecodePointer@4
+    __imp__DisableThreadLibraryCalls@4
+    __imp__EncodePointer@4
+    __imp__GetCurrentProcess@0
+    __imp__GetCurrentProcessId@0
+    __imp__GetCurrentThreadId@0
+    __imp__GetSystemTimeAsFileTime@4
+    __imp__IsDebuggerPresent@0
+    __imp__IsProcessorFeaturePresent@4
+    __imp__QueryPerformanceCounter@4
+    __imp__SetUnhandledExceptionFilter@4
+    __imp__TerminateProcess@8
+    __imp__UnhandledExceptionFilter@4
+    __imp____acrt_iob_func
+    __imp____iob_func
+    __imp____stdio_common_vfprintf
+    __imp___calloc_crt
+    __imp___malloc_crt
+    __imp__exit
+    __imp__fclose
+    __imp__fdopen
+    __imp__ferror
+    __imp__fflush
+    __imp__fgetc
+    __imp__fileno
+    __imp__fopen
+    __imp__fprintf
+    __imp__fread
+    __imp__free
+    __imp__fwrite
+    __imp__malloc
+    __imp__setmode
+    __imp__ungetc
+    __initialize_narrow_environment
+    __initialize_onexit_table
+    __initterm
+    __initterm_e
+    __iob_func
+    __lock
+    __register_onexit_function
+    __seh_filter_dll
+    __stdio_common_vfprintf
+    _calloc_crt
+    _fdopen
+    _fileno
+    _imp___onexit
+    _malloc_crt
+    _memset
+    _setmode
+    exit
+    fclose
+    ferror
+    fflush
+    fgetc
+    fopen
+    fread
+    free
+    fwrite
+    isdigit
+    malloc
+    ungetc

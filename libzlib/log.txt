@@ -1,0 +1,416 @@
+Received project name: Trellix ARC's Library
+Received project version: libzlib-1.2.7_through_1.3_various-msvc-builds
+Received output folder path: F:\fidb-output\libzlib
+Received choice with regards to the usage of a common symbols file: false
+Collected language IDs and their versions:
+	AARCH64:LE:64:v8A (1.6)
+	x86:LE:64:default (3.0)
+	x86:LE:32:default (3.0)
+	PowerPC:LE:64:A2ALT (1.5)
+
+PowerPC:LE:64:A2ALT contains 80 files
+x86:LE:64:default contains 269 files
+x86:LE:32:default contains 221 files
+AARCH64:LE:64:v8A contains 75 files
+
+[PowerPC:LE:64:A2ALT] Generating "Trellix ARC's Library (libzlib-1.2.7_through_1.3_various-msvc-builds)" based on 80 files
+Trellix ARC's Library:libzlib-1.2.7_through_1.3_various-msvc-builds:PowerPC:LE:64:A2ALT
+1703 total functions visited
+595 total functions added
+1108 total functions excluded
+Breakdown of exclusions:
+    IS_THUNK: 625
+    DUPLICATE_INFO: 458
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 25
+    MEMORY_ACCESS_EXCEPTION: 0
+    NO_DEFINED_SYMBOL: 0
+    FAILED_FUNCTION_FILTER: 0
+List of unresolved symbols:
+    .annobin_crc32.c.exit
+    SUB_00000000
+    TOC_BASE
+    __errno_location
+    __snprintf_chk
+    __stack_chk_fail
+    __vsnprintf_chk
+    _tr_align
+    _tr_flush_bits
+    _tr_flush_block
+    _tr_init
+    _tr_stored_block
+    adler32
+    close
+    crc32
+    crc32_func.5037
+    crc32_func.5079
+    deflate
+    deflateEnd
+    deflateInit2_
+    deflateInit_
+    deflateParams
+    deflateReset
+    free
+    gz_error
+    gzclose_r
+    gzclose_w
+    inflate
+    inflateEnd
+    inflateInit2_
+    inflateInit_
+    inflateReset
+    lseek64
+    malloc
+    memchr
+    memcpy
+    memset
+    open
+    read
+    snprintf
+    strerror
+    strlen
+    write
+    zcalloc
+[x86:LE:64:default] Generating "Trellix ARC's Library (libzlib-1.2.7_through_1.3_various-msvc-builds)" based on 269 files
+Trellix ARC's Library:libzlib-1.2.7_through_1.3_various-msvc-builds:x86:LE:64:default
+18781 total functions visited
+7458 total functions added
+11323 total functions excluded
+Breakdown of exclusions:
+    IS_THUNK: 145
+    DUPLICATE_INFO: 5455
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 576
+    MEMORY_ACCESS_EXCEPTION: 0
+    NO_DEFINED_SYMBOL: 5147
+    FAILED_FUNCTION_FILTER: 0
+List of unresolved symbols:
+    PTR___stdio_common_vsprintf_1800151c0
+    PTR___stdio_common_vsprintf_180017170
+    PTR___stdio_common_vsprintf_1800171d0
+    PTR___stdio_common_vsprintf_180018170
+    PTR__close_180013190
+    PTR__close_180014160
+    PTR__close_180014170
+    PTR__close_180014188
+    PTR__close_180014190
+    PTR__close_1800141c8
+    PTR__close_180015170
+    PTR__close_1800151c0
+    PTR__close_1800151c8
+    PTR__close_1800161c0
+    PTR__close_1800161c8
+    PTR__close_1800161d0
+    PTR__close_1800171c0
+    PTR__close_1800171c8
+    PTR__close_1800181c8
+    PTR__lseeki64_1800130c0
+    PTR__lseeki64_1800140c0
+    PTR__lseeki64_180014180
+    PTR__lseeki64_180014190
+    PTR__lseeki64_1800141a0
+    PTR__lseeki64_1800141b8
+    PTR__lseeki64_1800151a0
+    PTR__lseeki64_1800151a8
+    PTR__lseeki64_180016168
+    PTR__lseeki64_180016180
+    PTR__lseeki64_180016188
+    PTR__lseeki64_1800161a8
+    PTR__lseeki64_1800161d8
+    PTR__lseeki64_180017168
+    PTR__lseeki64_1800171d8
+    PTR__lseeki64_1800181d8
+    PTR__snprintf_180013168
+    PTR__snprintf_180014168
+    PTR__snprintf_1800141a0
+    PTR__snprintf_180015180
+    PTR__snprintf_180015188
+    PTR__snprintf_180016188
+    PTR__vsnprintf_1800130e8
+    PTR__vsnprintf_1800140e8
+    PTR__vsnprintf_1800150d8
+    PTR__vsnprintf_1800150e0
+    PTR__vsnprintf_1800160e0
+    PTR_free_180013158
+    PTR_free_1800140e8
+    PTR_free_1800140f8
+    PTR_free_180014158
+    PTR_free_180014190
+    PTR_free_1800150f8
+    PTR_free_180015190
+    PTR_free_180015198
+    PTR_free_1800160f8
+    PTR_free_180016100
+    PTR_free_180016108
+    PTR_free_180016198
+    PTR_free_1800170f8
+    PTR_free_180017108
+    PTR_free_180018108
+    PTR_malloc_180013150
+    PTR_malloc_1800140f0
+    PTR_malloc_180014100
+    PTR_malloc_180014150
+    PTR_malloc_180014188
+    PTR_malloc_180015100
+    PTR_malloc_180015188
+    PTR_malloc_180015190
+    PTR_malloc_1800160f8
+    PTR_malloc_180016100
+    PTR_malloc_180016190
+    PTR_malloc_180017100
+    PTR_malloc_180018100
+    PTR_memchr_180013088
+    PTR_memchr_180014088
+    PTR_memchr_1800140b8
+    PTR_memchr_1800140c8
+    PTR_memchr_180015168
+    PTR_memchr_180015170
+    PTR_memchr_1800160c8
+    PTR_memchr_1800160d0
+    PTR_memchr_180016170
+    PTR_memmove_180015088
+    PTR_memmove_180016088
+    PTR_memmove_1800160c8
+    __chkstk
+    __errno_location
+    __imp_CloseHandle
+    __imp_CreateFileA
+    __imp_CreateFileW
+    __imp_GetLastError
+    __imp_ReadFile
+    __imp_SetFilePointer
+    __imp_WriteFile
+    __imp___stdio_common_vsprintf
+    __imp__errno
+    __imp__fseeki64
+    __imp__lseeki64
+    __imp__time64
+    __imp__wopen
+    __imp_close
+    __imp_free
+    __imp_malloc
+    __imp_memchr
+    __imp_memmove
+    __imp_open
+    __imp_rand
+    __imp_read
+    __imp_srand
+    __imp_strerror
+    __imp_wcstombs
+    __imp_write
+    __report_rangecheckfailure
+    __security_check_cookie
+    __snprintf_chk
+    __sprintf_chk
+    __stack_chk_fail
+    __stdio_common_vsprintf
+    __vsnprintf_chk
+    _close
+    _lseeki64
+    _snprintf
+    _tr_flush_bits
+    _vsnprintf
+    close
+    configuration_table[8]
+    free
+    lseek64
+    malloc
+    memchr
+    memcpy
+    memmove
+    memset
+    open
+    read
+    strcat
+    strcpy
+    strerror
+    strlen
+    write
+[x86:LE:32:default] Generating "Trellix ARC's Library (libzlib-1.2.7_through_1.3_various-msvc-builds)" based on 221 files
+Trellix ARC's Library:libzlib-1.2.7_through_1.3_various-msvc-builds:x86:LE:32:default
+18924 total functions visited
+7664 total functions added
+11260 total functions excluded
+Breakdown of exclusions:
+    IS_THUNK: 111
+    DUPLICATE_INFO: 5492
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 364
+    MEMORY_ACCESS_EXCEPTION: 0
+    NO_DEFINED_SYMBOL: 5293
+    FAILED_FUNCTION_FILTER: 0
+List of unresolved symbols:
+    @__security_check_cookie@4
+    LAB_00010009+2
+    PTR___stdio_common_vsprintf_100130d8
+    PTR___stdio_common_vsprintf_100140bc
+    PTR___stdio_common_vsprintf_100140c0
+    PTR___stdio_common_vsprintf_100140c4
+    PTR___stdio_common_vsprintf_100140d8
+    PTR___stdio_common_vsprintf_100150bc
+    PTR___stdio_common_vsprintf_100150e0
+    PTR___stdio_common_vsprintf_100160e0
+    PTR___stdio_common_vsprintf_100170e0
+    PTR__close_100120dc
+    PTR__close_100120e0
+    PTR__close_100130bc
+    PTR__close_100130d8
+    PTR__close_100130dc
+    PTR__close_100130e0
+    PTR__close_100140a8
+    PTR__close_100140b4
+    PTR__close_100140b8
+    PTR__close_100140bc
+    PTR__close_100140d8
+    PTR__close_100140dc
+    PTR__close_100150a8
+    PTR__close_100150ac
+    PTR__close_100160ac
+    PTR__close_100170ac
+    PTR__lseeki64_100120b8
+    PTR__lseeki64_100120c8
+    PTR__lseeki64_100130b8
+    PTR__lseeki64_100130c0
+    PTR__lseeki64_100130c4
+    PTR__lseeki64_100130c8
+    PTR__lseeki64_100140c4
+    PTR__lseeki64_100140c8
+    PTR__lseeki64_100140cc
+    PTR__lseeki64_100140d4
+    PTR__lseeki64_100140d8
+    PTR__lseeki64_100140dc
+    PTR__lseeki64_100150b8
+    PTR__lseeki64_100150d4
+    PTR__lseeki64_100160b8
+    PTR__lseeki64_100170b8
+    PTR__snprintf_100120c8
+    PTR__snprintf_100130c8
+    PTR__snprintf_100140b8
+    PTR__snprintf_100140bc
+    PTR__vsnprintf_10012074
+    PTR__vsnprintf_10013074
+    PTR__vsnprintf_1001406c
+    PTR__vsnprintf_10014070
+    PTR_free_10012070
+    PTR_free_100120c0
+    PTR_free_10013070
+    PTR_free_100130c0
+    PTR_free_10014070
+    PTR_free_10014074
+    PTR_free_100140c0
+    PTR_free_100140c4
+    PTR_free_10015070
+    PTR_free_10015078
+    PTR_free_10016078
+    PTR_free_10017078
+    PTR_malloc_10012074
+    PTR_malloc_100120bc
+    PTR_malloc_10013074
+    PTR_malloc_100130bc
+    PTR_malloc_10014074
+    PTR_malloc_10014078
+    PTR_malloc_100140bc
+    PTR_malloc_100140c0
+    PTR_malloc_10015074
+    PTR_malloc_10016074
+    PTR_malloc_10017074
+    PTR_memchr_10012044
+    PTR_memchr_10012054
+    PTR_memchr_10013044
+    PTR_memchr_10013054
+    PTR_memchr_10014058
+    PTR_memchr_1001405c
+    PTR_memchr_100140ac
+    PTR_memchr_100140b0
+    PTR_memmove_10014044
+    PTR_memmove_10014058
+    ___report_rangecheckfailure
+    __alldiv
+    __chkstk
+    __errno_location
+    __imp__CloseHandle@4
+    __imp__CreateFileA@28
+    __imp__CreateFileW@28
+    __imp__GetLastError@0
+    __imp__ReadFile@20
+    __imp__SetFilePointer@16
+    __imp__WriteFile@20
+    __imp____stdio_common_vsprintf
+    __imp___errno
+    __imp___fseeki64
+    __imp___lseeki64
+    __imp___time64
+    __imp___wopen
+    __imp__close
+    __imp__fopen
+    __imp__free
+    __imp__malloc
+    __imp__memchr
+    __imp__memmove
+    __imp__open
+    __imp__rand
+    __imp__read
+    __imp__srand
+    __imp__strerror
+    __imp__wcstombs
+    __moddi3
+    __snprintf_chk
+    __sprintf_chk
+    __stack_chk_fail
+    __stack_chk_fail_local
+    __stdio_common_vsprintf
+    __vsnprintf_chk
+    _close
+    _lseeki64
+    _memchr
+    _memcpy
+    _memmove
+    _memset
+    _tr_flush_bits
+    close
+    configuration_table[8]
+    free
+    lseek64
+    malloc
+    memchr
+    memcpy
+    memmove
+    memset
+    open
+    read
+    snprintf
+    strcat
+    strcpy
+    strerror
+    strlen
+    write
+[AARCH64:LE:64:v8A] Generating "Trellix ARC's Library (libzlib-1.2.7_through_1.3_various-msvc-builds)" based on 75 files
+Trellix ARC's Library:libzlib-1.2.7_through_1.3_various-msvc-builds:AARCH64:LE:64:v8A
+1184 total functions visited
+575 total functions added
+609 total functions excluded
+Breakdown of exclusions:
+    IS_THUNK: 45
+    DUPLICATE_INFO: 396
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 168
+    MEMORY_ACCESS_EXCEPTION: 0
+    NO_DEFINED_SYMBOL: 0
+    FAILED_FUNCTION_FILTER: 0
+List of unresolved symbols:
+    __errno_location
+    __snprintf_chk
+    __stack_chk_fail
+    __vsnprintf_chk
+    _tr_flush_bits
+    adler32
+    close
+    free
+    lseek64
+    malloc
+    memchr
+    memcpy
+    memset
+    open
+    read
+    snprintf
+    strerror
+    strlen
+    write
+    zcalloc

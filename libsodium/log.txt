@@ -1,0 +1,479 @@
+Received project name: Trellix ARC's Library
+Received project version: libsodium-1.0.16_and_1.0.18_and_1.0.19
+Received output folder path: F:\fidb-output\libsodium
+Received choice with regards to the usage of a common symbols file: false
+Collected language IDs and their versions:
+	AARCH64:LE:64:v8A (1.6)
+	x86:LE:64:default (3.0)
+	PowerPC:LE:64:A2ALT (1.5)
+	x86:LE:32:default (3.0)
+
+PowerPC:LE:64:A2ALT contains 102 files
+x86:LE:64:default contains 3014 files
+AARCH64:LE:64:v8A contains 102 files
+x86:LE:32:default contains 2590 files
+
+[PowerPC:LE:64:A2ALT] Generating "Trellix ARC's Library (libsodium-1.0.16_and_1.0.18_and_1.0.19)" based on 102 files
+Trellix ARC's Library:libsodium-1.0.16_and_1.0.18_and_1.0.19:PowerPC:LE:64:A2ALT
+1244 total functions visited
+466 total functions added
+778 total functions excluded
+Breakdown of exclusions:
+    MEMORY_ACCESS_EXCEPTION: 0
+    NO_DEFINED_SYMBOL: 0
+    IS_THUNK: 466
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 309
+    FAILED_FUNCTION_FILTER: 0
+    DUPLICATE_INFO: 3
+List of unresolved symbols:
+    PBKDF2_SHA256
+    SUB_00000000
+    SUB_00000010
+    SUB_1000010c1b
+    SUB_104752446d
+    SUB_10c1b01417804
+    SUB_141780400527a01
+    SUB_1c00010c1b
+    SUB_527a0100000000
+    SUB_7569646f7362694c
+    SUB_fffffd7400000018
+    TOC_BASE
+    __assert_fail
+    __errno_location
+    __explicit_bzero_chk
+    __fxstat
+    __memcpy_chk
+    __stack_chk_fail
+    __tls_get_addr
+    _crypto_generichash_blake2b_pick_best_implementation
+    _crypto_onetimeauth_poly1305_pick_best_implementation
+    _crypto_pwhash_argon2_pick_best_implementation
+    _crypto_scalarmult_curve25519_pick_best_implementation
+    _crypto_sign_ed25519_detached
+    _crypto_sign_ed25519_ref10_hinit
+    _crypto_sign_ed25519_verify_detached
+    _crypto_stream_chacha20_pick_best_implementation
+    _crypto_stream_salsa20_pick_best_implementation
+    _sodium_alloc_init
+    _sodium_runtime_get_cpu_features
+    abort
+    alloc_region
+    argon2i_hash_encoded
+    argon2i_hash_raw
+    argon2i_verify
+    argon2id_hash_encoded
+    argon2id_hash_raw
+    argon2id_verify
+    blake2b_compress
+    blake2b_long
+    calloc
+    close
+    crypto_auth_hmacsha256_final
+    crypto_auth_hmacsha256_init
+    crypto_auth_hmacsha256_update
+    crypto_auth_hmacsha512256
+    crypto_auth_hmacsha512256_verify
+    crypto_auth_hmacsha512_final
+    crypto_auth_hmacsha512_init
+    crypto_auth_hmacsha512_update
+    crypto_box_beforenm
+    crypto_box_curve25519xchacha20poly1305_easy
+    crypto_box_curve25519xchacha20poly1305_keypair
+    crypto_box_curve25519xchacha20poly1305_open_easy
+    crypto_box_curve25519xsalsa20poly1305
+    crypto_box_curve25519xsalsa20poly1305_afternm
+    crypto_box_curve25519xsalsa20poly1305_beforenm
+    crypto_box_curve25519xsalsa20poly1305_keypair
+    crypto_box_curve25519xsalsa20poly1305_open
+    crypto_box_curve25519xsalsa20poly1305_open_afternm
+    crypto_box_curve25519xsalsa20poly1305_seed_keypair
+    crypto_box_easy
+    crypto_box_keypair
+    crypto_box_open_easy
+    crypto_core_ed25519_scalar_add
+    crypto_core_ed25519_scalar_complement
+    crypto_core_ed25519_scalar_invert
+    crypto_core_ed25519_scalar_negate
+    crypto_core_ed25519_scalar_random
+    crypto_core_ed25519_scalar_reduce
+    crypto_core_ed25519_scalar_sub
+    crypto_core_salsa20
+    crypto_core_salsa2012
+    crypto_core_salsa208
+    crypto_generichash
+    crypto_generichash_blake2b
+    crypto_generichash_blake2b__blake2b
+    crypto_generichash_blake2b__blake2b_salt_personal
+    crypto_generichash_blake2b__final
+    crypto_generichash_blake2b__init
+    crypto_generichash_blake2b__init_key
+    crypto_generichash_blake2b__init_key_salt_personal
+    crypto_generichash_blake2b__init_salt_personal
+    crypto_generichash_blake2b__pick_best_implementation
+    crypto_generichash_blake2b__update
+    crypto_generichash_blake2b_final
+    crypto_generichash_blake2b_init
+    crypto_generichash_blake2b_salt_personal
+    crypto_generichash_blake2b_update
+    crypto_generichash_final
+    crypto_generichash_init
+    crypto_generichash_update
+    crypto_hash_sha256_final
+    crypto_hash_sha256_init
+    crypto_hash_sha256_update
+    crypto_hash_sha512
+    crypto_hash_sha512_final
+    crypto_hash_sha512_init
+    crypto_hash_sha512_update
+    crypto_kdf_blake2b_derive_from_key
+    crypto_onetimeauth_poly1305
+    crypto_onetimeauth_poly1305_donna_implementation
+    crypto_onetimeauth_poly1305_final
+    crypto_onetimeauth_poly1305_init
+    crypto_onetimeauth_poly1305_update
+    crypto_onetimeauth_poly1305_verify
+    crypto_pwhash_argon2i
+    crypto_pwhash_argon2i_str
+    crypto_pwhash_argon2i_str_needs_rehash
+    crypto_pwhash_argon2i_str_verify
+    crypto_pwhash_argon2id
+    crypto_pwhash_argon2id_str
+    crypto_pwhash_argon2id_str_needs_rehash
+    crypto_pwhash_argon2id_str_verify
+    crypto_pwhash_scryptsalsa208sha256_ll
+    crypto_scalarmult
+    crypto_scalarmult_base
+    crypto_scalarmult_curve25519
+    crypto_scalarmult_curve25519_base
+    crypto_scalarmult_curve25519_ref10_implementation
+    crypto_secretbox_detached
+    crypto_secretbox_open_detached
+    crypto_secretbox_xchacha20poly1305_detached
+    crypto_secretbox_xchacha20poly1305_open_detached
+    crypto_secretbox_xsalsa20poly1305
+    crypto_secretbox_xsalsa20poly1305_open
+    crypto_shorthash_siphash24
+    crypto_sign_ed25519
+    crypto_sign_ed25519_detached
+    crypto_sign_ed25519_keypair
+    crypto_sign_ed25519_open
+    crypto_sign_ed25519_seed_keypair
+    crypto_sign_ed25519_verify_detached
+    crypto_sign_ed25519ph_final_create
+    crypto_sign_ed25519ph_final_verify
+    crypto_sign_ed25519ph_init
+    crypto_sign_ed25519ph_update
+    crypto_stream_chacha20
+    crypto_stream_chacha20_ietf
+    crypto_stream_chacha20_ietf_ext
+    crypto_stream_chacha20_ietf_ext_xor_ic
+    crypto_stream_chacha20_ietf_xor
+    crypto_stream_chacha20_ietf_xor_ic
+    crypto_stream_chacha20_ref_implementation
+    crypto_stream_chacha20_xor
+    crypto_stream_chacha20_xor_ic
+    crypto_stream_salsa20
+    crypto_stream_salsa20_ref_implementation
+    crypto_stream_salsa20_xor
+    crypto_stream_salsa20_xor_ic
+    crypto_stream_xsalsa20
+    crypto_stream_xsalsa20_xor
+    decode_string
+    encode_string
+    escrypt_free_local
+    escrypt_gensalt_r
+    escrypt_kdf_nosse
+    escrypt_parse_setting
+    escrypt_r
+    fcntl
+    fe25519_invert
+    fe25519_tobytes
+    fill_memory_blocks
+    fill_segment_ref
+    finalize
+    free
+    free_region
+    ge25519_add
+    ge25519_double_scalarmult_vartime
+    ge25519_from_hash
+    ge25519_from_uniform
+    ge25519_frombytes
+    ge25519_frombytes_negate_vartime
+    ge25519_has_small_order
+    ge25519_is_on_curve
+    ge25519_is_on_main_subgroup
+    ge25519_p1p1_to_p2
+    ge25519_p1p1_to_p3
+    ge25519_p3_to_cached
+    ge25519_p3_tobytes
+    ge25519_scalarmult
+    ge25519_scalarmult_base
+    ge25519_sub
+    ge25519_tobytes
+    getentropy
+    getpid
+    getrandom
+    gettimeofday
+    initialize
+    madvise
+    malloc
+    memcpy
+    memmove
+    memset
+    mlock
+    mmap
+    mprotect
+    munlock
+    munmap
+    open
+    poll
+    pthread_mutex_lock
+    pthread_mutex_unlock
+    raise
+    randombytes_buf
+    randombytes_stir
+    randombytes_sysrandom_implementation
+    read
+    ristretto255_from_hash
+    ristretto255_frombytes
+    ristretto255_p3_tobytes
+    sc25519_invert
+    sc25519_is_canonical
+    sodium_base642bin
+    sodium_bin2base64
+    sodium_memcmp
+    sodium_memzero
+    sodium_misuse
+    sodium_runtime_has_rdrand
+    strchr
+    strlen
+    strncmp
+    strrchr
+    sysconf
+[x86:LE:64:default] Generating "Trellix ARC's Library (libsodium-1.0.16_and_1.0.18_and_1.0.19)" based on 3014 files
+Trellix ARC's Library:libsodium-1.0.16_and_1.0.18_and_1.0.19:x86:LE:64:default
+17732 total functions visited
+8120 total functions added
+9612 total functions excluded
+Breakdown of exclusions:
+    MEMORY_ACCESS_EXCEPTION: 0
+    NO_DEFINED_SYMBOL: 16
+    IS_THUNK: 615
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 3654
+    FAILED_FUNCTION_FILTER: 0
+    DUPLICATE_INFO: 5327
+List of unresolved symbols:
+    DAT_00003748
+    DAT_00004970
+    DAT_00005c70
+    DAT_480f74f6854810ff
+    DAT_66d172f039085207
+    DAT_8510ff002f2444c6
+    DAT_87840fc98550
+    DAT_c338c48348085107
+    DAT_c338c4834810510f
+    DAT_c338c48348185117
+    DAT_d1894c38244c8950
+    SystemFunction036
+    _RTC_CheckStackVars
+    _RTC_InitBase
+    _RTC_Shutdown
+    ___chkstk_ms
+    __assert_fail
+    __chkstk
+    __emutls_get_address
+    __errno_location
+    __explicit_bzero_chk
+    __fxstat
+    __imp_EnterCriticalSection
+    __imp_GetSystemInfo
+    __imp_InitializeCriticalSection
+    __imp_LeaveCriticalSection
+    __imp_Sleep
+    __imp_VirtualAlloc
+    __imp_VirtualFree
+    __imp_VirtualLock
+    __imp_VirtualProtect
+    __imp_VirtualUnlock
+    __imp__assert
+    __imp__errno
+    __imp__ftime64
+    __memcpy_chk
+    __report_rangecheckfailure
+    __security_check_cookie
+    __stack_chk_fail
+    __tls_get_addr
+    _errno
+    _ftime64
+    _wassert
+    abort
+    aegis128l_soft_implementation
+    aegis256_soft_implementation
+    blacklist.3600[32]
+    blake2b_compress
+    calloc
+    close
+    crypto_onetimeauth_poly1305_donna_implementation
+    crypto_scalarmult_curve25519_ref10_implementation
+    crypto_stream_chacha20_ref_implementation
+    crypto_stream_salsa20_ref_implementation
+    fcntl
+    fill_segment
+    free
+    getentropy
+    getpid
+    getrandom
+    gettimeofday
+    madvise
+    malloc
+    memchr
+    memcpy
+    memmove
+    memset
+    mlock
+    mmap
+    mprotect
+    munlock
+    munmap
+    open
+    poll
+    pthread_mutex_lock
+    pthread_mutex_unlock
+    raise
+    read
+    sodium_misuse.cold.1
+    strchr
+    strlen
+    strncmp
+    strrchr
+    syscall
+    sysconf
+[AARCH64:LE:64:v8A] Generating "Trellix ARC's Library (libsodium-1.0.16_and_1.0.18_and_1.0.19)" based on 102 files
+Trellix ARC's Library:libsodium-1.0.16_and_1.0.18_and_1.0.19:AARCH64:LE:64:v8A
+853 total functions visited
+364 total functions added
+489 total functions excluded
+Breakdown of exclusions:
+    MEMORY_ACCESS_EXCEPTION: 0
+    NO_DEFINED_SYMBOL: 0
+    IS_THUNK: 62
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 424
+    FAILED_FUNCTION_FILTER: 0
+    DUPLICATE_INFO: 3
+List of unresolved symbols:
+    DAT_00100c40
+    SUB_911c400090000000
+    __assert_fail
+    __errno_location
+    __explicit_bzero_chk
+    __fxstat
+    __memcpy_chk
+    __stack_chk_fail
+    _crypto_generichash_blake2b_pick_best_implementation
+    abort
+    argon2i_verify
+    argon2id_verify
+    calloc
+    close
+    crypto_box_beforenm
+    crypto_box_keypair
+    crypto_generichash
+    crypto_generichash_blake2b_update
+    crypto_generichash_final
+    crypto_generichash_init
+    crypto_generichash_update
+    crypto_pwhash_argon2i_str_needs_rehash
+    crypto_pwhash_argon2id_str_needs_rehash
+    crypto_scalarmult
+    crypto_scalarmult_base
+    crypto_stream_xsalsa20_xor
+    escrypt_free_local
+    fcntl
+    free
+    getentropy
+    getpid
+    getrandom
+    gettimeofday
+    madvise
+    malloc
+    memcpy
+    memmove
+    memset
+    mlock
+    mmap
+    mprotect
+    munlock
+    munmap
+    open
+    poll
+    pthread_mutex_lock
+    pthread_mutex_unlock
+    raise
+    read
+    sodium_memzero
+    sodium_runtime_has_rdrand
+    strchr
+    strlen
+    strncmp
+    strrchr
+    sysconf
+[x86:LE:32:default] Generating "Trellix ARC's Library (libsodium-1.0.16_and_1.0.18_and_1.0.19)" based on 2590 files
+Trellix ARC's Library:libsodium-1.0.16_and_1.0.18_and_1.0.19:x86:LE:32:default
+14225 total functions visited
+7143 total functions added
+7082 total functions excluded
+Breakdown of exclusions:
+    MEMORY_ACCESS_EXCEPTION: 0
+    NO_DEFINED_SYMBOL: 2
+    IS_THUNK: 162
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 1923
+    FAILED_FUNCTION_FILTER: 0
+    DUPLICATE_INFO: 4995
+List of unresolved symbols:
+    @_RTC_CheckStackVars@8
+    @__security_check_cookie@4
+    DAT_00000000
+    DAT_00003634
+    DAT_00003f0c
+    DAT_0000460c
+    _SystemFunction036@8
+    __RTC_CheckEsp
+    ___chkstk_ms
+    ___report_rangecheckfailure
+    ___umoddi3
+    __allmul
+    __allshl
+    __allshr
+    __aulldiv
+    __aullrem
+    __aullshr
+    __chkstk
+    __errno
+    __ftime64
+    __imp__EnterCriticalSection@4
+    __imp__GetSystemInfo@4
+    __imp__InitializeCriticalSection@4
+    __imp__LeaveCriticalSection@4
+    __imp__Sleep@4
+    __imp__VirtualAlloc@16
+    __imp__VirtualFree@12
+    __imp__VirtualLock@8
+    __imp__VirtualProtect@16
+    __imp__VirtualUnlock@8
+    __imp___assert
+    __imp___errno
+    __wassert
+    _abort
+    _blake2b_compress
+    _calloc
+    _fill_segment
+    _free
+    _malloc
+    _memcpy
+    _memmove
+    _memset
+    _raise
+    _strchr
+    _strlen
+    _strncmp
+    _strrchr

@@ -1,0 +1,267 @@
+Received project name: Trellix ARC's Library
+Received project version: liblzma5.2.2_through_5.4.5_various-msvc-builds
+Received output folder path: F:\fidb-output\liblzma
+Received choice with regards to the usage of a common symbols file: false
+Collected language IDs and their versions:
+	x86:LE:64:default (3.0)
+	x86:LE:32:default (3.0)
+
+x86:LE:64:default contains 6212 files
+x86:LE:32:default contains 6212 files
+
+[x86:LE:64:default] Generating "Trellix ARC's Library (liblzma5.2.2_through_5.4.5_various-msvc-builds)" based on 6212 files
+Trellix ARC's Library:liblzma5.2.2_through_5.4.5_various-msvc-builds:x86:LE:64:default
+102182 total functions visited
+51021 total functions added
+51161 total functions excluded
+Breakdown of exclusions:
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 3706
+    IS_THUNK: 1553
+    DUPLICATE_INFO: 45902
+    FAILED_FUNCTION_FILTER: 0
+    MEMORY_ACCESS_EXCEPTION: 0
+    NO_DEFINED_SYMBOL: 0
+List of unresolved symbols:
+    CloseHandle
+    DecodePointer
+    DeleteCriticalSection
+    DisableThreadLibraryCalls
+    EncodePointer
+    EnterCriticalSection
+    GetCurrentProcess
+    GetCurrentProcessId
+    GetCurrentThreadId
+    GetModuleHandleA
+    GetProcAddress
+    GetSystemInfo
+    GetSystemTimeAsFileTime
+    GetTickCount
+    GetVersion
+    GlobalMemoryStatus
+    GlobalMemoryStatusEx
+    InitializeConditionVariable
+    InitializeCriticalSection
+    IsDebuggerPresent
+    IsProcessorFeaturePresent
+    LeaveCriticalSection
+    PTR_parse_lzma12_000073c8
+    PTR_parse_lzma12_000074c8
+    PTR_parse_lzma12_000075c8
+    PTR_parse_lzma12_000076c8
+    PTR_parse_lzma12_000077c8
+    PTR_parse_lzma12_000078c8
+    PTR_parse_lzma12_0000adc8
+    PTR_parse_lzma12_0000b5c8
+    PTR_parse_lzma12_0000b6c8
+    PTR_parse_lzma12_000878e8
+    PTR_parse_lzma12_00087ae8
+    PTR_parse_lzma12_000896e8
+    PTR_parse_lzma12_0008fee8
+    PTR_parse_lzma12_0008ffe8
+    PTR_parse_lzma12_00091ae8
+    QueryPerformanceCounter
+    RtlCaptureContext
+    RtlLookupFunctionEntry
+    RtlVirtualUnwind
+    SetUnhandledExceptionFilter
+    SleepConditionVariableCS
+    UnhandledExceptionFilter
+    WaitForSingleObject
+    WakeConditionVariable
+    __CppXcptFilter
+    __crtCapturePreviousContext
+    __crtTerminateProcess
+    __crtUnhandledException
+    __crt_debugger_hook
+    __dllonexit
+    __dyn_tls_init_callback
+    __guard_dispatch_icall_fptr
+    __imp_CloseHandle
+    __imp_DecodePointer
+    __imp_DeleteCriticalSection
+    __imp_DisableThreadLibraryCalls
+    __imp_EncodePointer
+    __imp_EnterCriticalSection
+    __imp_GetCurrentProcess
+    __imp_GetCurrentProcessId
+    __imp_GetCurrentThreadId
+    __imp_GetModuleHandleA
+    __imp_GetProcAddress
+    __imp_GetSystemInfo
+    __imp_GetSystemTimeAsFileTime
+    __imp_GetTickCount
+    __imp_GetVersion
+    __imp_GlobalMemoryStatus
+    __imp_GlobalMemoryStatusEx
+    __imp_InitializeConditionVariable
+    __imp_InitializeCriticalSection
+    __imp_IsDebuggerPresent
+    __imp_IsProcessorFeaturePresent
+    __imp_LeaveCriticalSection
+    __imp_QueryPerformanceCounter
+    __imp_RtlCaptureContext
+    __imp_RtlLookupFunctionEntry
+    __imp_RtlVirtualUnwind
+    __imp_SetUnhandledExceptionFilter
+    __imp_SleepConditionVariableCS
+    __imp_UnhandledExceptionFilter
+    __imp_WaitForSingleObject
+    __imp_WakeConditionVariable
+    __imp__beginthreadex
+    __imp__calloc_crt
+    __imp__malloc_crt
+    __imp__onexit
+    __imp_calloc
+    __imp_free
+    __imp_malloc
+    __imp_memchr
+    __imp_memmove
+    _amsg_exit
+    _beginthreadex
+    _calloc_crt
+    _cexit
+    _configure_narrow_argv
+    _crt_atexit
+    _execute_onexit_table
+    _initialize_narrow_environment
+    _initialize_onexit_table
+    _initterm
+    _initterm_e
+    _lock
+    _malloc_crt
+    _register_onexit_function
+    _seh_filter_dll
+    _unlock
+    calloc
+    filter_name_map[0].parse
+    free
+    lzma_lz_decoder_memusage
+    malloc
+    memchr
+    memcmp
+    memcpy
+    memmove
+    memset
+[x86:LE:32:default] Generating "Trellix ARC's Library (liblzma5.2.2_through_5.4.5_various-msvc-builds)" based on 6212 files
+Trellix ARC's Library:liblzma5.2.2_through_5.4.5_various-msvc-builds:x86:LE:32:default
+110774 total functions visited
+57258 total functions added
+53516 total functions excluded
+Breakdown of exclusions:
+    FAILS_MINIMUM_SHORTHASH_LENGTH: 1268
+    IS_THUNK: 1447
+    DUPLICATE_INFO: 50594
+    FAILED_FUNCTION_FILTER: 0
+    MEMORY_ACCESS_EXCEPTION: 0
+    NO_DEFINED_SYMBOL: 207
+List of unresolved symbols:
+    @__security_check_cookie@4
+    CloseHandle
+    CreateEventA
+    CreateEventW
+    DecodePointer
+    DeleteCriticalSection
+    DisableThreadLibraryCalls
+    EncodePointer
+    EnterCriticalSection
+    GetCurrentProcess
+    GetCurrentProcessId
+    GetCurrentThreadId
+    GetModuleHandleA
+    GetProcAddress
+    GetSystemInfo
+    GetSystemTimeAsFileTime
+    GetTickCount
+    GetVersion
+    GlobalMemoryStatus
+    GlobalMemoryStatusEx
+    InitializeConditionVariable
+    InitializeCriticalSection
+    IsDebuggerPresent
+    IsProcessorFeaturePresent
+    LeaveCriticalSection
+    QueryPerformanceCounter
+    SetEvent
+    SetUnhandledExceptionFilter
+    SleepConditionVariableCS
+    TerminateProcess
+    UnhandledExceptionFilter
+    WaitForSingleObject
+    WakeConditionVariable
+    _IsProcessorFeaturePresent@4
+    ___clean_type_info_names_internal
+    ___crtTerminateProcess
+    ___crtUnhandledException
+    ___dllonexit
+    ___std_type_info_destroy_list
+    __allmul
+    __allshl
+    __amsg_exit
+    __aullshr
+    __configure_narrow_argv
+    __crt_atexit
+    __crt_debugger_hook
+    __dyn_tls_init_callback
+    __except_handler4_common
+    __execute_onexit_table
+    __guard_check_icall_fptr
+    __imp__CloseHandle@4
+    __imp__CreateEventA@16
+    __imp__CreateEventW@16
+    __imp__DecodePointer@4
+    __imp__DeleteCriticalSection@4
+    __imp__DisableThreadLibraryCalls@4
+    __imp__EncodePointer@4
+    __imp__EnterCriticalSection@4
+    __imp__GetCurrentProcess@0
+    __imp__GetCurrentProcessId@0
+    __imp__GetCurrentThreadId@0
+    __imp__GetModuleHandleA@4
+    __imp__GetProcAddress@8
+    __imp__GetSystemInfo@4
+    __imp__GetSystemTimeAsFileTime@4
+    __imp__GetTickCount@0
+    __imp__GetVersion@0
+    __imp__GlobalMemoryStatus@4
+    __imp__GlobalMemoryStatusEx@4
+    __imp__InitializeConditionVariable@4
+    __imp__InitializeCriticalSection@4
+    __imp__IsDebuggerPresent@0
+    __imp__IsProcessorFeaturePresent@4
+    __imp__LeaveCriticalSection@4
+    __imp__QueryPerformanceCounter@4
+    __imp__SetEvent@4
+    __imp__SetUnhandledExceptionFilter@4
+    __imp__SleepConditionVariableCS@12
+    __imp__TerminateProcess@8
+    __imp__UnhandledExceptionFilter@4
+    __imp__WaitForSingleObject@8
+    __imp__WakeConditionVariable@4
+    __imp___beginthreadex
+    __imp___calloc_crt
+    __imp___malloc_crt
+    __imp__calloc
+    __imp__free
+    __imp__malloc
+    __imp__memchr
+    __imp__memmove
+    __initialize_narrow_environment
+    __initialize_onexit_table
+    __initterm
+    __initterm_e
+    __lock
+    __register_onexit_function
+    __seh_filter_dll
+    _beginthreadex
+    _calloc_crt
+    _imp___onexit
+    _malloc_crt
+    _memchr
+    _memcpy
+    _memmove
+    _memset
+    calloc
+    free
+    malloc
+    memchr
+    memmove
